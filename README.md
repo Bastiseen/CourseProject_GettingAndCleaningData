@@ -1,10 +1,10 @@
 # Project of the "Getting And Cleaning Data" course by coursera
 
-getdata-projectfiles-UCI HAR Dataset was donwloaded and unzipped in the working directory
+getdata-projectfiles-UCI HAR Dataset was donwloaded and unzipped in the working directory.
 
 ## The R sript - run_analysis.R
 
-run_analysis.R allows to:
+run_analysis.R:
 * 1) - Merges the training and the test sets to create one data set.
 * 2) - Extracts only the measurements on the mean and standard deviation for each measurement. 
 * 3) - Uses descriptive activity names to name the activities in the data set.
@@ -23,41 +23,41 @@ There are 6 activities for each subject: WALKING, WALKING_UPSTAIRS, WALKING_DOWN
 
 The list of variables is ('-XYZ' is used to denote 3-axial signals in the X, Y and Z directions):
 
-*tBodyAcc-XYZ
-*tGravityAcc-XYZ
-*tBodyAccJerk-XYZ
-*tBodyGyro-XYZ
-*tBodyGyroJerk-XYZ
-*tBodyAccMag
-*tGravityAccMag
-*tBodyAccJerkMag
-*tBodyGyroMag
-*tBodyGyroJerkMag
-*fBodyAcc-XYZ
-*fBodyAccJerk-XYZ
-*fBodyGyro-XYZ
-*fBodyAccMag
-*fBodyAccJerkMag
-*fBodyGyroMag
-*fBodyGyroJerkMag
-*fBodyAcc-mean()-XYZ               
-*fBodyAcc-std()-XYZ               
-*fBodyAcc-meanFreq()-XYZ 
-*fBodyAccJerk-mean()-XYZ      
-*fBodyAccJerk-std()-XYZ 
-*fBodyAccJerk-meanFreq()-XYZ   
-*fBodyGyro-mean()-XYZ
-*fBodyGyro-std()-XYZ           
-*fBodyGyro-meanFreq()-XYZ
-*fBodyAccMag-mean()
-*fBodyAccMag-std()
-*fBodyAccMag-meanFreq()
-*fBodyBodyAccJerkMag-mean()
-*fBodyBodyAccJerkMag-std()
-*fBodyBodyAccJerkMag-meanFreq()
-*fBodyBodyGyroMag-mean()
-*fBodyBodyGyroMag-std()
-*fBodyBodyGyroMag-meanFreq()
-*fBodyBodyGyroJerkMag-mean()
-*fBodyBodyGyroJerkMag-std()
-*fBodyBodyGyroJerkMag-meanFreq()
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
+* fBodyAcc-mean()-XYZ               
+* fBodyAcc-std()-XYZ               
+* fBodyAcc-meanFreq()-XYZ 
+* fBodyAccJerk-mean()-XYZ      
+* fBodyAccJerk-std()-XYZ 
+* fBodyAccJerk-meanFreq()-XYZ   
+* fBodyGyro-mean()-XYZ
+* fBodyGyro-std()-XYZ           
+* fBodyGyro-meanFreq()-XYZ
+* fBodyAccMag-mean()
+* fBodyAccMag-std()
+* fBodyAccMag-meanFreq()
+* fBodyBodyAccJerkMag-mean()
+* fBodyBodyAccJerkMag-std()
+* fBodyBodyAccJerkMag-meanFreq()
+* fBodyBodyGyroMag-mean()
+* fBodyBodyGyroMag-std()
+* fBodyBodyGyroMag-meanFreq()
+* fBodyBodyGyroJerkMag-mean()
+* fBodyBodyGyroJerkMag-std()
+* fBodyBodyGyroJerkMag-meanFreq()
